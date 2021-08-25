@@ -1,5 +1,7 @@
 {
-  "name": "@jobinsjp/jobins-file-upload",
+  "name": "@jobinsjp/file-upload",
+  "private" :false,
+  "main": "dist/index.js",
   "version": "0.1.0",
   "scripts": {
     "build": "webpack --config config/webpack.config.js"

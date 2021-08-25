@@ -3,7 +3,7 @@ import FileUpload from "./FileUpload.vue"
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("v-breadcrump", FileUpload);
+  Vue.component("file-upload", FileUpload);
 }
 
 const plugin = {
